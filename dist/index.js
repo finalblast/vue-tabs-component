@@ -205,7 +205,7 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 /* 4 */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.11' };
+var core = module.exports = { version: '2.6.12' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -969,7 +969,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       key: i,
       staticClass: "tabs-component-tab",
       class: {
-        'is-active': tab.isActive, 'is-disabled': tab.isDisabled
+        'is-active': tab.isActive,
+        'is-disabled': tab.isDisabled
       },
       style: (("order: " + (tab.order))),
       attrs: {
